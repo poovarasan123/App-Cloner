@@ -56,12 +56,8 @@ ________________________________________
 
 ## Excel File Format
 
-
-App Name	Package Name	URL	adUnit	interstitialAdId	bannerAdId	isBannerAds	isInterstitialAds	isPortfolio	Repo URL
-ExampleApp	com.example.app	https://example.com
-ABC123	DEF456	GHI789	true	false	false	https://github.com/...
-________________________________________
-
+App Name	Package Name	URL			adUnit	interstitialAdId	bannerAdId	isBannerAds	isInterstitialAds	isPortfolio	Repo URL
+ExampleApp	com.example.app	https://example.com	ABC123	DEF456			GHI789		true		false			false		https://github.com/...
 ---
 
 ## Output
@@ -73,29 +69,21 @@ o	Updated settings.gradle and strings.xml.
 o	Replaced placeholders in code files.
 o	Generated mipmap icons for launcher icons.
 •	If a Git repository URL is provided, the app will be pushed to the specified repository.
-________________________________________
-
 ---
 
 ## Logging
 
 All operations are logged to automation.log. Errors, warnings, and successful steps are recorded.
-________________________________________
-
 ---
 
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
-________________________________________
-
 ---
 
 
 ## Contributing
 Contributions are welcome! Feel free to fork the repository and submit pull requests.
-________________________________________
-
 ---
 
 
