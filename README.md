@@ -2,7 +2,7 @@
 
 This Python script automates the creation of Android WebView-based applications using a pre-defined base code template. It reads configuration details from an Excel file, customizes the app's package structure, updates resources, and optionally initializes a Git repository for version control.
 
----
+<!-- --- -->
 
 ## Features
 
@@ -13,7 +13,7 @@ This Python script automates the creation of Android WebView-based applications 
 - **Git Integration**: Optionally initializes a Git repository and pushes the initial commit to a remote repository.
 - **WebView Configuration**: Customizes the WebView URL directly in the `MainActivity`.
 
----
+<!-- --- -->
 
 ## Prerequisites
 
@@ -22,8 +22,9 @@ This Python script automates the creation of Android WebView-based applications 
 
    ```bash
    pip install pandas pillow
+   ```
 
----
+<!-- --- -->
 
 ## Installation
 
@@ -36,7 +37,7 @@ This Python script automates the creation of Android WebView-based applications 
 ├── icons/
 │   └── [App-specific icons organized by app name]
 
----
+<!-- --- -->
 
 ## Usage
 
@@ -47,11 +48,13 @@ o	output_directory: Path where the generated apps will be saved.
 
 2.	Run the script:
 
-python automate_apps.py
+	```bash
+	python automate_apps.py
+	```
 
 3.	Check the automation.log file for execution details.
 
----
+<!-- --- -->
 
 ## Excel File Format
 
@@ -61,7 +64,7 @@ The script reads an Excel file to fetch configuration details for each app. Belo
 |-------------|-------------------|--------------------|---------|------------------|------------|-------------|-------------------|-------------|------------------------------------|
 | ExampleApp  | com.example.app   | https://example.com | ABC123  | DEF456          | GHI789     | true        | false             | false       | https://github.com/ExampleApp.git |
 
----
+<!-- --- -->
 
 ## Output
 
@@ -73,32 +76,32 @@ o	Replaced placeholders in code files.
 o	Generated mipmap icons for launcher icons.
 •	If a Git repository URL is provided, the app will be pushed to the specified repository.
 
----
+<!-- --- -->
 
 ## Logging
 
 All operations are logged to automation.log. Errors, warnings, and successful steps are recorded.
 
----
+<!-- --- -->
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
----
+<!-- --- -->
 
 ## Contributing
 Contributions are welcome! Feel free to fork the repository and submit pull requests.
 
----
+<!-- --- -->
 
 ## Contact
 For queries or issues, reach out to the author at ksrpoovarasan634@gmail.com.
 
----
+<!-- --- -->
 
 ## How to Use the `README.md`
 - Copy and paste the above content into a file named `README.md`.
 - Replace placeholder paths, example configurations, and contact details with your project's actual details.
 - Include the `README.md` in the root of your project's Git repository.
 
----
+<!-- --- -->
