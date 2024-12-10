@@ -53,6 +53,16 @@ python automate_apps.py
 
 ---
 
+## Excel File Format
+
+The script reads an Excel file to fetch configuration details for each app. Below is the expected format of the Excel file:
+
+| App Name    | Package Name      | URL                | adUnit  | interstitialAdId | bannerAdId | isBannerAds | isInterstitialAds | isPortfolio | Repo URL                          |
+|-------------|-------------------|--------------------|---------|------------------|------------|-------------|-------------------|-------------|------------------------------------|
+| ExampleApp  | com.example.app   | https://example.com | ABC123  | DEF456          | GHI789     | true        | false             | false       | https://github.com/ExampleApp.git |
+
+---
+
 ## Output
 
 •	Each app is generated in its own directory under the output_directory.
