@@ -29,12 +29,12 @@ This Python script automates the creation of Android WebView-based applications 
 
 1.	Clone this repository or download the script.
 2.	Ensure the following folder structure:
+
 ├── Basecode/
- │   └── [Your Android base code template]
+│   └── [Your Android base code template]
 ├── codegres_projects.xlsx
 ├── icons/
- │   └── [App-specific icons organized by app name]
-________________________________________
+│   └── [App-specific icons organized by app name]
 
 ---
 
@@ -50,15 +50,7 @@ o	output_directory: Path where the generated apps will be saved.
 python automate_apps.py
 
 3.	Check the automation.log file for execution details.
-________________________________________
 
----
-
-## Excel File Format
-
-| App Name    | Package Name      | URL                | adUnit  | interstitialAdId | bannerAdId | isBannerAds | isInterstitialAds | isPortfolio | Repo URL                          |
-|-------------|-------------------|--------------------|---------|------------------|------------|-------------|-------------------|-------------|------------------------------------|
-| ExampleApp  | com.example.app   | https://example.com | ABC123  | DEF456          | GHI789     | true        | false             | false       | https://github.com/ExampleApp.git |
 ---
 
 ## Output
@@ -70,29 +62,29 @@ o	Updated settings.gradle and strings.xml.
 o	Replaced placeholders in code files.
 o	Generated mipmap icons for launcher icons.
 •	If a Git repository URL is provided, the app will be pushed to the specified repository.
+
 ---
 
 ## Logging
 
 All operations are logged to automation.log. Errors, warnings, and successful steps are recorded.
----
 
+---
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
----
 
+---
 
 ## Contributing
 Contributions are welcome! Feel free to fork the repository and submit pull requests.
----
 
+---
 
 ## Contact
 For queries or issues, reach out to the author at ksrpoovarasan634@gmail.com.
 
 ---
-
 
 ## How to Use the `README.md`
 - Copy and paste the above content into a file named `README.md`.
@@ -100,5 +92,3 @@ For queries or issues, reach out to the author at ksrpoovarasan634@gmail.com.
 - Include the `README.md` in the root of your project's Git repository.
 
 ---
-
-
