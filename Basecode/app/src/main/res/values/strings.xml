@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Video Editor</string>
+    <string name="adUnit">ca-app-pub-7967255539189801/3151904576</string>
+    <string name="navigation_drawer_open" />
+    <string name="navigation_drawer_close" />
+    <string name="retry">Retry</string>
+    <string name="title">Video Editor</string>
+    <string name="nav_head">Navigation header</string>
+    <string name="fb">Codegres</string>
+    <string name="twt">CodeBuy</string>
+    <string name="ig">Tools</string>
+    <string name="linkdin">LinkedIn</string>
+    <string name="gplus">Google+</string>
+    <string name="recom">Recommended</string>
+    <string name="amzn">Buy Video Editor Pro</string>
+    <string name="flpkrt">Contact Us</string>
+    <string name="emus">Email Us</string>
+    <string name="conus">Contact Us</string>
+    <string name="rfrsh">Refresh</string>
+    <string name="share">share</string>
+    <string name="interstitialAdId">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="bannerAdId">ca-app-pub-6090587108478199/4066837518</string>
+    <bool name="isBannerAds">false</bool>
+    <bool name="isInterstitialAds">false</bool>
+    <bool name="isPortfolio">false</bool>
+
+</resources>
