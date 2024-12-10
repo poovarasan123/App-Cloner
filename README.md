@@ -56,8 +56,9 @@ ________________________________________
 
 ## Excel File Format
 
-App Name	Package Name	URL			adUnit	interstitialAdId	bannerAdId	isBannerAds	isInterstitialAds	isPortfolio	Repo URL
-ExampleApp	com.example.app	https://example.com	ABC123	DEF456			GHI789		true		false			false		https://github.com/...
+| App Name    | Package Name      | URL                | adUnit  | interstitialAdId | bannerAdId | isBannerAds | isInterstitialAds | isPortfolio | Repo URL                          |
+|-------------|-------------------|--------------------|---------|------------------|------------|-------------|-------------------|-------------|------------------------------------|
+| ExampleApp  | com.example.app   | https://example.com | ABC123  | DEF456          | GHI789     | true        | false             | false       | https://github.com/ExampleApp.git |
 ---
 
 ## Output
