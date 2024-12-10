@@ -21,6 +21,7 @@ This Python script automates the creation of Android WebView-based applications 
 2. Required Python libraries installed:
    ```bash
    pip install pandas pillow
+```
 
 ##Installation
 
